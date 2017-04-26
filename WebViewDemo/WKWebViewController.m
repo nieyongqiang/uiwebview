@@ -83,9 +83,9 @@ CNContactPickerDelegate
     //添加NativeApi
     [self addNativeApiToJS];
     
-    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"html"]]]];
+//    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"test" ofType:@"html"]]]];
     //可以测试百度还是test
-//    [self loadUrl:@"http://m.baidu.com/"];
+    [self loadUrl:@"http://www.w3school.com.cn/tiy/loadtext.asp?f=ajax_post2"];
 }
 
 - (instancetype)initWithCoder:(NSCoder *)coder
